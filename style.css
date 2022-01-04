@@ -38,6 +38,7 @@ body{
     background-color: rgb(243, 98, 212);
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .campo{

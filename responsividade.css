@@ -1,0 +1,29 @@
+@media (max-width: 600px)
+{
+
+  .conteudo{
+    margin-top: 110px;
+  }
+
+  .titulo{
+      font-size: 30px;
+  }
+
+  .formulario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.botao{
+  align-self: center;
+}
+
+.campo{
+  width: 90px;
+  align-self:center;
+
+}
+
+}
