@@ -1,0 +1,71 @@
+@import '~@sweetalert2/themes/dark/dark.scss';
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background: rgb(222,181,221);
+    background: linear-gradient(90deg, rgba(222,181,221,1) 0%, rgba(97,227,253,1) 100%);
+    
+}
+
+.conteudo{
+    margin-top: 15%;
+}
+
+.titulo{
+    color: white;
+    margin-bottom: 40´x;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.formulario{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botao{
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(243, 98, 212);
+    color: white;
+    font-weight: bold;
+}
+
+.campo{
+    border: none;
+    border-radius: 10px;
+    color: rgb(243, 98, 212);
+    padding-left: 10px;
+}
+
+.botao:hover{
+    background-color: rgb(243, 167, 226);
+}
+
+#swal2-html-container{
+    text-align: center;
+}
+
+.swal2-styled.swal2-confirm{
+    background-color:rgba(97,227,253,1);
+    border: none;
+}
+
+.swal2-popup{
+    background-color:rgb(243, 167, 226);
+    color: white;
+    width: 250px;
+}
+
+.campo:focus{
+    outline: 2px solid rgba(97,227,253,1);
+  }
